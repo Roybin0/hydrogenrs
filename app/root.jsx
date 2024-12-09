@@ -157,7 +157,6 @@ export function Layout({children}) {
             consent={data.consent}
           >
             <PageLayout {...data}>{children}</PageLayout>
-            <ThirdPartyAnalyticsIntegration />
           </Analytics.Provider>
         ) : (
           children
