@@ -15,7 +15,6 @@ import resetStyles from '~/styles/reset.css?url';
 import appStyles from '~/styles/app.css?url';
 import {PageLayout} from '~/components/PageLayout';
 import {FOOTER_QUERY, HEADER_QUERY} from '~/lib/fragments';
-import {ThirdPartyAnalyticsIntegration} from '~/components/ThirdPartyAnalyticsIntegration';
 
 /**
  * This is important to avoid re-fetching root queries on sub-navigations
